@@ -1,0 +1,20 @@
+factory is a creational design pattern
+it helps to create object
+when we need to create diff object based on some condition - means when we need conditional basis object we
+can use factory pattern to avoid code duplication.
+
+example - let say we have a shape interface
+          <<shape>>
+           draw()
+      square        rectangle     circle   (extends shape)
+
+      now in our code we need different object of square or rectangle
+
+   to create the object of these class we will use a shapeFactory class
+
+      shapeFactory ---------- has-a -----> shape object
+
+    public shape  getShape(based on this){
+           //based on the passed parameter we will create conditional object
+
+           }
