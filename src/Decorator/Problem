@@ -1,0 +1,33 @@
+Design a system for coffee shop that allow customers to order coffee with verious customizable add-ons
+(like milk, suger, caramel, whipped cream)
+
+1. core coffee types :
+ customers should be able to choose from basic coffee types like
+    espresso
+    latte
+    cappuccino
+
+ 2. Custom Add-Ons:
+
+ 1. Customers can customize their coffee with add-ons like:
+    Milk
+    Sugar
+    Chocolate Syrup
+    Whipped Cream
+ 2. Each add-on has an additional cost.
+
+ Dynamic Composition:
+
+ 1. Add-ons should be optional, and customers can choose any combination of them.
+ 2. The system should be flexible enough to handle future add-ons without modifying the base coffee classes.
+
+
+ Pricing:
+
+  1. The total price should reflect the base coffee price plus the cost of all selected add-ons.
+
+
+ Extensibility:
+
+ 1. New add-ons should be easy to integrate without modifying the existing code.
+

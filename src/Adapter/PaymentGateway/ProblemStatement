@@ -1,0 +1,17 @@
+You are tasked with designing a Payment Gateway System for an e-commerce platform that can
+process payments through multiple third-party payment gateways.
+The system should allow integration with multiple payment providers, such as PayPal, Stripe, and Razorpay.
+Each provider has its own API and
+interface for processing payments, which are incompatible with your system's standard interface.
+
+ Your
+payment system should provide a unified interface for the platform, regardless of the payment gateway used.
+
+
+Requirments
+
+1. The system should define a standard interface for payment processing (e.g., PaymentProcessor)
+that the client application uses.
+2. Each payment provider should be integrated without modifying their existing APIs.
+3. The system should be extendable so new payment providers can be added with minimal effort.
+4. The solution should ensure the platform remains agnostic to the underlying gateway implementation.
